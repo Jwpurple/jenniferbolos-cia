@@ -1,0 +1,1137 @@
+* {
+    border: 0cap;
+    padding: 0%;
+    margin: 0;
+}
+
+body {
+    max-width: 100vw;
+    height: 430vh;
+    background-image: linear-gradient(90deg, rgba(255, 0, 43, 0.671), rgba(255, 105, 130, 0.788)), url(fundo.jpg );
+    background-size: 1400px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+nav {
+    background-color: #ffc6c4;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#img1 {
+    height: 300px;
+    width: 350px;
+    z-index: 2;
+    position: relative;
+    top: -10vh;
+}
+
+#img2 {
+    height: 30%;
+    width: 100%;
+    position: relative;
+}
+
+#parte-marrom {
+    background-color: #241913;
+    color: #ffc2ca;
+    z-index: 3;
+    position: relative;
+    top: -14vh;
+    text-align: center;
+}
+
+#parte-marrom>p {
+    padding-left: 40vw;
+    font-size: 20px;
+}
+
+#cora {
+    height: 70px;
+    width: 150px;
+    position: relative;
+    top: -55dvh;
+    left: 75vw;
+}
+
+#capacete {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: -75dvh;
+    left: 60vw;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: -55dvh;
+    left: 65vw;
+    max-width: 30vw;
+    font-size: 35px;
+    color: rgb(255, 51, 0);
+}
+
+#p {
+    font-family: "Raleway", sans-serif;
+}
+
+#h12 {
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+#cup {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -90vh;
+    left: 90vw;
+    transform: rotate(30deg);
+    opacity: 0.4;
+}
+
+.ta {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 5dvh;
+    margin-top: 5dvh
+}
+
+.amostras {
+    height: 80vh;
+    width: 25vw;
+    background-color: rgba(236, 142, 178, 0.705);
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #f33f3f 3px solid;
+    -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.amostras:hover {
+    transform: scale(1.2);
+}
+
+.areai {
+    margin-top: 5dvh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: "Playwrite IT Moderna", cursive;
+    color: red;
+}
+
+h2 {
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#i2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.final {
+    position: relative;
+    left: 15vw;
+    height: 50vh;
+    width: 70vw;
+    top: 3vh;
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 30px;
+    margin-bottom: 5dvh;
+}
+
+#contato {
+    cursor: pointer;
+    background-color: rgb(255, 0, 76);
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    margin-top: 5dvh;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.pouimg {
+    width: 250px;
+    height: 184px;
+    border-radius: 30px;
+    border: red 2px solid;
+    margin-bottom: 30px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: rgb(124, 0, 25);
+    font-family: "Playwrite IT Moderna", cursive;
+}
+
+.ppp {
+    max-width: 70%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.oi {
+    cursor: pointer;
+    align-content: center;
+    text-align: center;
+    display: block;
+    width: 70px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #ffc6c4;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #f33f3f;
+}
+
+.nseimas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.r {
+    display: block;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(240, 255, 255, 0);
+    text-align: center;
+    align-content: center;
+    -webkit-box-reflect: below 5px linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+}
+
+#as {
+    color: var(--green);
+}
+
+#as1 {
+    color: var(--rose);
+}
+
+#as2 {
+    color: var(--blue);
+}
+
+#as3 {
+    color: var(--red);
+}
+
+#as:hover {
+    background-color: var(--green);
+    color: #000000;
+    display: block;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+#as1:hover {
+    background-color: var(--rose);
+    color: #000000;
+    display: block;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+#as2:hover {
+    background-color: var(--blue);
+    color: #000000;
+    display: block;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+#as3:hover {
+    background-color: var(--red);
+    color: #000000;
+    display: block;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+:root {
+    --red: red;
+    --green: green;
+    --rose: pink;
+    --blue: blue;
+}
+
+@media (min-width:600px) and (max-width:900px) {
+    * {
+        border: 0cap;
+        padding: 0%;
+        margin: 0;
+    }
+    body {
+        max-width: 100vw;
+        height: 430vh;
+        background-image: linear-gradient(90deg, rgba(255, 0, 43, 0.671), rgba(255, 105, 130, 0.788)), url(fundo.jpg );
+        background-size: 1000px;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        overflow-x: hidden;
+    }
+    nav {
+        background-color: #ffc6c4;
+        height: 20vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    #img1 {
+        height: 150px;
+        width: 200px;
+        z-index: 2;
+        top: -2vh;
+        position: relative;
+    }
+    #img2 {
+        height: 30%;
+        width: 100%;
+        position: relative;
+    }
+    #cora {
+        top: -17vh;
+        height: 100px;
+        width: 120px;
+        position: relative;
+        z-index: 5;
+        left: 53vw;
+    }
+    #parte-marrom {
+        background-color: #241913;
+        color: #ffc2ca;
+        z-index: 3;
+        position: relative;
+        top: -2vh;
+        text-align: center;
+        font-size: 20px;
+    }
+    #capacete {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: -23vh;
+        left: 43vw;
+        opacity: 2;
+        z-index: 5;
+    }
+    h1 {
+        text-align: center;
+        position: relative;
+        top: -17dvh;
+        left: 30vw;
+        max-width: 60vw;
+        font-size: 20px;
+        color: rgb(255, 51, 0);
+    }
+    #p {
+        font-family: "Raleway", sans-serif;
+    }
+    #h12 {
+        font-family: "Playwrite IT Moderna", cursive;
+    }
+    #cup {
+        height: 80px;
+        width: 80px;
+        position: relative;
+        top: -29vh;
+        left: 70vw;
+        transform: rotate(30deg);
+        opacity: 0.5;
+    }
+    .ta {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 5dvh;
+        margin-top: 5dvh
+    }
+    .amostras {
+        height: 60vh;
+        width: 40vw;
+        background-color: rgba(236, 142, 178, 0.705);
+        align-self: center;
+        justify-self: center;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: #f33f3f 3px solid;
+        -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .amostras:hover {
+        transform: scale(1.2);
+    }
+    .areai {
+        margin-top: 5dvh;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        justify-self: center;
+        align-self: center;
+    }
+    h3 {
+        font-size: 30px;
+        font-family: "Playwrite IT Moderna", cursive;
+        color: red;
+    }
+    h2 {
+        color: #000000;
+        font-family: "Raleway", sans-serif;
+        font-size: 40px;
+        text-align: center;
+    }
+    #i2 {
+        position: relative;
+        top: 5vh;
+        margin-bottom: 5vh;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    .final {
+        position: relative;
+        justify-self: center;
+        align-self: center;
+        height: 40vh;
+        width: 75vw;
+        top: 3vh;
+        background-color: rgba(0, 0, 0, 0.534);
+        border-radius: 30px;
+        margin-bottom: 5dvh;
+    }
+    #contato {
+        cursor: pointer;
+        background-color: rgb(255, 0, 76);
+        padding: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 50px;
+        margin-top: 5dvh;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        align-content: center;
+        text-decoration: none;
+        color: #000000;
+    }
+    .pouimg {
+        width: 250px;
+        height: 184px;
+        border-radius: 30px;
+        border: red 2px solid;
+        margin-bottom: 30px;
+    }
+    h4 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 30px;
+        color: rgb(124, 0, 25);
+        font-family: "Playwrite IT Moderna", cursive;
+    }
+    .ppp {
+        max-width: 70%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .oi {
+        cursor: pointer;
+        align-content: center;
+        text-align: center;
+        display: block;
+        width: 70px;
+        height: 50px;
+        border-radius: 30px;
+        background-color: #ffc6c4;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: #f33f3f;
+    }
+    .nseimas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+    }
+    .r {
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: rgba(240, 255, 255, 0);
+        text-align: center;
+        align-content: center;
+        -webkit-box-reflect: below 5px linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+    }
+    #as {
+        color: var(--green);
+    }
+    #as1 {
+        color: var(--rose);
+    }
+    #as2 {
+        color: var(--blue);
+    }
+    #as3 {
+        color: var(--red);
+    }
+    #as:hover {
+        background-color: var(--green);
+        color: #000000;
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+    }
+    #as1:hover {
+        background-color: var(--rose);
+        color: #000000;
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+    }
+    #as2:hover {
+        background-color: var(--blue);
+        color: #000000;
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+    }
+    #as3:hover {
+        background-color: var(--red);
+        color: #000000;
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+    }
+     :root {
+        --red: red;
+        --green: green;
+        --rose: pink;
+        --blue: blue;
+    }
+}
+
+@media (max-width:400px) {
+    * {
+        border: 0cap;
+        padding: 0%;
+        margin: 0;
+    }
+    body {
+        max-width: 100vw;
+        height: 430vh;
+        background-image: linear-gradient(90deg, rgba(255, 0, 43, 0.671), rgba(255, 105, 130, 0.788)), url(fundo.jpg );
+        background-size: 1000px;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        overflow-x: hidden;
+    }
+    nav {
+        background-color: #ffc6c4;
+        height: 20vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    #img1 {
+        height: 100px;
+        width: 150px;
+        z-index: 2;
+        left: -5vw;
+        top: -4vh;
+        position: relative;
+    }
+    #img2 {
+        height: 30%;
+        width: 100%;
+        position: relative;
+    }
+    #cora {
+        top: -27vh;
+        height: 100px;
+        width: 120px;
+        position: relative;
+        z-index: 5;
+        left: 45vw;
+    }
+    #parte-marrom {
+        background-color: #241913;
+        color: #ffc2ca;
+        z-index: 3;
+        position: relative;
+        top: -2vh;
+        text-align: center;
+        font-size: 20px;
+    }
+    #capacete {
+        height: 30px;
+        width: 30px;
+        position: relative;
+        top: -37vh;
+        left: 35vw;
+        opacity: 2;
+        z-index: 5;
+    }
+    h1 {
+        text-align: center;
+        position: relative;
+        top: -27dvh;
+        left: 30vw;
+        max-width: 60vw;
+        font-size: 20px;
+        color: rgb(255, 51, 0);
+    }
+    #p {
+        font-family: "Raleway", sans-serif;
+    }
+    #h12 {
+        font-family: "Playwrite IT Moderna", cursive;
+    }
+    #cup {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: -43vh;
+        left: 78vw;
+        transform: rotate(30deg);
+        opacity: 0.5;
+    }
+    .ta {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 5dvh;
+        margin-top: 5dvh
+    }
+    .amostras {
+        height: 80vh;
+        width: 70vw;
+        background-color: rgba(236, 142, 178, 0.705);
+        align-self: center;
+        justify-self: center;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: #f33f3f 3px solid;
+        -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .amostras:hover {
+        transform: scale(1.2);
+    }
+    .areai {
+        margin-top: 5dvh;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        justify-self: center;
+        align-self: center;
+    }
+    h3 {
+        font-size: 30px;
+        font-family: "Playwrite IT Moderna", cursive;
+        color: red;
+    }
+    h2 {
+        color: #000000;
+        font-family: "Raleway", sans-serif;
+        font-size: 40px;
+        text-align: center;
+    }
+    #i2 {
+        position: relative;
+        top: 5vh;
+        margin-bottom: 5vh;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    .final {
+        position: relative;
+        left: 15vw;
+        height: 40vh;
+        width: 70vw;
+        top: 3vh;
+        background-color: rgba(0, 0, 0, 0.534);
+        border-radius: 30px;
+        margin-bottom: 5dvh;
+    }
+    #contato {
+        cursor: pointer;
+        background-color: rgb(255, 0, 76);
+        padding: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 50px;
+        margin-top: 5dvh;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        align-content: center;
+        text-decoration: none;
+        color: #000000;
+    }
+    .pouimg {
+        width: 250px;
+        height: 184px;
+        border-radius: 30px;
+        border: red 2px solid;
+        margin-bottom: 30px;
+    }
+    h4 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 30px;
+        color: rgb(124, 0, 25);
+        font-family: "Playwrite IT Moderna", cursive;
+    }
+    .ppp {
+        max-width: 70%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .oi {
+        cursor: pointer;
+        align-content: center;
+        text-align: center;
+        display: block;
+        width: 70px;
+        height: 50px;
+        border-radius: 30px;
+        background-color: #ffc6c4;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: #f33f3f;
+    }
+    .nseimas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+    }
+    .r {
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: rgba(240, 255, 255, 0);
+        text-align: center;
+        align-content: center;
+        -webkit-box-reflect: below 5px linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+    }
+    #as {
+        color: var(--green);
+    }
+    #as1 {
+        color: var(--rose);
+    }
+    #as2 {
+        color: var(--blue);
+    }
+    #as3 {
+        color: var(--red);
+    }
+    #as:hover {
+        background-color: var(--green);
+        color: #000000;
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+    }
+    #as1:hover {
+        background-color: var(--rose);
+        color: #000000;
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+    }
+    #as2:hover {
+        background-color: var(--blue);
+        color: #000000;
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+    }
+    #as3:hover {
+        background-color: var(--red);
+        color: #000000;
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+    }
+     :root {
+        --red: red;
+        --green: green;
+        --rose: pink;
+        --blue: blue;
+    }
+}
+
+@media (min-width:400px) and (max-width:600px) {
+    * {
+        border: 0cap;
+        padding: 0%;
+        margin: 0;
+    }
+    body {
+        max-width: 140vw;
+        height: 430vh;
+        background-image: linear-gradient(90deg, rgba(255, 0, 43, 0.671), rgba(255, 105, 130, 0.788)), url(fundo.jpg );
+        background-size: 1000px;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        overflow-x: hidden;
+    }
+    nav {
+        background-color: #ffc6c4;
+        height: 20vh;
+        width: 140vw;
+        display: flex;
+        flex-direction: column;
+    }
+    #img1 {
+        height: 100px;
+        width: 150px;
+        z-index: 2;
+        top: -2vh;
+        position: relative;
+    }
+    #img2 {
+        height: 30%;
+        width: 100%;
+        position: relative;
+    }
+    #cora {
+        top: -22vh;
+        height: 100px;
+        width: 120px;
+        position: relative;
+        z-index: 5;
+        left: 56vw;
+    }
+    #parte-marrom {
+        background-color: #241913;
+        color: #ffc2ca;
+        z-index: 3;
+        position: relative;
+        top: -2vh;
+        text-align: center;
+        font-size: 20px;
+    }
+    #capacete {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: -28vh;
+        left: 33vw;
+        opacity: 2;
+        z-index: 5;
+    }
+    h1 {
+        text-align: center;
+        position: relative;
+        top: -22vh;
+        left: 40vw;
+        max-width: 60vw;
+        font-size: 20px;
+        color: rgb(255, 51, 0);
+    }
+    #p {
+        font-family: "Raleway", sans-serif;
+    }
+    #h12 {
+        font-family: "Playwrite IT Moderna", cursive;
+    }
+    #cup {
+        height: 80px;
+        width: 80px;
+        position: relative;
+        top: -36vh;
+        left: 90vw;
+        transform: rotate(30deg);
+        opacity: 0.5;
+    }
+    .ta {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 5dvh;
+        margin-top: 5dvh
+    }
+    .amostras {
+        height: 80vh;
+        width: 70vw;
+        background-color: rgba(236, 142, 178, 0.705);
+        align-self: center;
+        justify-self: center;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: #f33f3f 3px solid;
+        -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .amostras:hover {
+        transform: scale(1.2);
+    }
+    .areai {
+        margin-top: 5dvh;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        justify-self: center;
+        align-self: center;
+    }
+    h3 {
+        font-size: 30px;
+        font-family: "Playwrite IT Moderna", cursive;
+        color: red;
+    }
+    h2 {
+        color: #000000;
+        font-family: "Raleway", sans-serif;
+        font-size: 40px;
+    }
+    #i2 {
+        position: relative;
+        top: 5vh;
+        margin-bottom: 5vh;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    .final {
+        position: relative;
+        left: 25vw;
+        height: 40vh;
+        width: 70vw;
+        top: 3vh;
+        background-color: rgba(0, 0, 0, 0.534);
+        border-radius: 30px;
+        margin-bottom: 5dvh;
+    }
+    #contato {
+        cursor: pointer;
+        background-color: rgb(255, 0, 76);
+        padding: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 50px;
+        margin-top: 5dvh;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        align-content: center;
+        text-decoration: none;
+        color: #000000;
+    }
+    .pouimg {
+        width: 250px;
+        height: 184px;
+        border-radius: 30px;
+        border: red 2px solid;
+        margin-bottom: 30px;
+    }
+    h4 {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 30px;
+        color: rgb(124, 0, 25);
+        font-family: "Playwrite IT Moderna", cursive;
+    }
+    .ppp {
+        max-width: 70%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .oi {
+        cursor: pointer;
+        align-content: center;
+        text-align: center;
+        display: block;
+        width: 70px;
+        height: 50px;
+        border-radius: 30px;
+        background-color: #ffc6c4;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: #f33f3f;
+    }
+    .nseimas {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+    }
+    .r {
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: rgba(240, 255, 255, 0);
+        text-align: center;
+        align-content: center;
+        -webkit-box-reflect: below 5px linear-gradient(transparent, rgba(0, 0, 0, 0.3));
+    }
+    #as {
+        color: var(--green);
+    }
+    #as1 {
+        color: var(--rose);
+    }
+    #as2 {
+        color: var(--blue);
+    }
+    #as3 {
+        color: var(--red);
+    }
+    #as:hover {
+        background-color: var(--green);
+        color: #000000;
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+    }
+    #as1:hover {
+        background-color: var(--rose);
+        color: #000000;
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+    }
+    #as2:hover {
+        background-color: var(--blue);
+        color: #000000;
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+    }
+    #as3:hover {
+        background-color: var(--red);
+        color: #000000;
+        display: block;
+        font-size: 40px;
+        width: 100px;
+        height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        align-content: center;
+    }
+     :root {
+        --red: red;
+        --green: green;
+        --rose: pink;
+        --blue: blue;
+    }
+}
